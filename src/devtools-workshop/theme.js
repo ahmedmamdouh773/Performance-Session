@@ -1,0 +1,18 @@
+export const T = {
+  bg: "#0d0d0f",
+  surface: "#141417",
+  card: "#1a1a1f",
+  border: "#2a2a32",
+  borderHov: "#3a3a45",
+  muted: "#888898",
+  subtle: "#555565",
+  text: "#e8e8f0",
+  textSec: "#9898a8",
+  orange: { fg: "#ff8c5a", bg: "#2a1608", border: "#6b2e0e" },
+  blue: { fg: "#60a5fa", bg: "#0c1a2e", border: "#1e3a5f" },
+  green: { fg: "#4ade80", bg: "#0a1f0e", border: "#1a4a22" },
+  amber: { fg: "#fbbf24", bg: "#1f1500", border: "#4a3300" },
+  purple: { fg: "#a78bfa", bg: "#150d2a", border: "#3b1f6b" },
+  red: { fg: "#f87171", bg: "#1f0a0a", border: "#5a1a1a" },
+  teal: { fg: "#2dd4bf", bg: "#041a18", border: "#0d4a44" },
+};
