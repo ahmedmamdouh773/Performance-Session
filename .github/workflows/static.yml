@@ -11,10 +11,10 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Setup Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v4
       with:
         node-version: '14'
 
@@ -24,11 +24,11 @@ jobs:
     - name: Build the project
       run: npm run build
 
-    - name: Setup Pages
-      uses: actions/setup-pages@v1
+    - name: Configure Pages
+      uses: actions/configure-pages@v4
 
     - name: Upload dist folder
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: dist
         path: dist/
